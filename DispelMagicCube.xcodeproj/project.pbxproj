@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7092E9617018B4A00B4AC04 /* particleAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = A7092E9517018B4A00B4AC04 /* particleAtlas.png */; };
+		A709A546170450EF00AC9FCA /* ParticleFire.m in Sources */ = {isa = PBXBuildFile; fileRef = A709A545170450EF00AC9FCA /* ParticleFire.m */; };
+		A70AF1971706F75700C1EB2E /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = A70AF1961706F75700C1EB2E /* text.png */; };
+		A71883BC1705738300B2C13A /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = A71883BB1705738300B2C13A /* GameLogic.m */; };
+		A71883D7170581A600B2C13A /* texture7.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883D6170581A600B2C13A /* texture7.png */; };
+		A71883DB1705829D00B2C13A /* texture8.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883DA1705829D00B2C13A /* texture8.png */; };
+		A71883DD170582D000B2C13A /* texture9.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883DC170582D000B2C13A /* texture9.png */; };
+		A71883DF17058D2300B2C13A /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883DE17058D2200B2C13A /* texture1.png */; };
+		A71883E117058E6F00B2C13A /* texture2.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883E017058E6F00B2C13A /* texture2.png */; };
+		A71883E317058FC300B2C13A /* texture3.png in Resources */ = {isa = PBXBuildFile; fileRef = A71883E217058FC300B2C13A /* texture3.png */; };
+		A72AA4C516D9053700A35FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72AA4C416D9053700A35FB8 /* QuartzCore.framework */; };
+		A73DE5E417227782009F27A8 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = A73DE5E317227782009F27A8 /* Cube.m */; };
+		A756B09216FDBA7E00580823 /* Particle.m in Sources */ = {isa = PBXBuildFile; fileRef = A756B09116FDBA7E00580823 /* Particle.m */; };
+		A76300FF17051B7B00692665 /* particleDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = A76300FE17051B7B00692665 /* particleDefault.png */; };
+		A76C294016D299D1004435ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C293F16D299D1004435ED /* UIKit.framework */; };
+		A76C294216D299D1004435ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C294116D299D1004435ED /* Foundation.framework */; };
+		A76C294416D299D1004435ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C294316D299D1004435ED /* CoreGraphics.framework */; };
+		A76C294616D299D1004435ED /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C294516D299D1004435ED /* GLKit.framework */; };
+		A76C294816D299D1004435ED /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C294716D299D1004435ED /* OpenGLES.framework */; };
+		A76C294E16D299D1004435ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76C294C16D299D1004435ED /* InfoPlist.strings */; };
+		A76C295016D299D1004435ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76C294F16D299D1004435ED /* main.m */; };
+		A76C295416D299D1004435ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76C295316D299D1004435ED /* AppDelegate.m */; };
+		A76C295B16D299D1004435ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76C295A16D299D1004435ED /* ViewController.m */; };
+		A76D688A1705BCC000F38CFB /* TextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A76D68891705BCC000F38CFB /* TextSprite.m */; };
+		A7743EDA1702FC960036FA2E /* particleFire.png in Resources */ = {isa = PBXBuildFile; fileRef = A7743ED91702FC960036FA2E /* particleFire.png */; };
+		A78D9F5016F6F7B40047DA50 /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A78D9F4F16F6F7B40047DA50 /* Gesture.m */; };
+		A7B5E27216F840FE000D30C4 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5E27116F840FE000D30C4 /* Animation.m */; };
+		A7E4508616FDC5930051C9A3 /* ParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E4508516FDC5930051C9A3 /* ParticleSystem.m */; };
+		A7F907F5170458A600EE16FF /* ParticleStar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F907F4170458A600EE16FF /* ParticleStar.m */; };
+		A7F907FA17046F5000EE16FF /* particleStar.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F907F917046F5000EE16FF /* particleStar.png */; };
+		A7F908091704805900EE16FF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F908081704805900EE16FF /* Icon.png */; };
+		A7F9080B1704806100EE16FF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F9080A1704806100EE16FF /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7092E9517018B4A00B4AC04 /* particleAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleAtlas.png; sourceTree = "<group>"; };
+		A709A544170450EF00AC9FCA /* ParticleFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleFire.h; sourceTree = "<group>"; };
+		A709A545170450EF00AC9FCA /* ParticleFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleFire.m; sourceTree = "<group>"; };
+		A70AF1961706F75700C1EB2E /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		A71883BA1705738300B2C13A /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		A71883BB1705738300B2C13A /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
+		A71883D6170581A600B2C13A /* texture7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture7.png; sourceTree = "<group>"; };
+		A71883DA1705829D00B2C13A /* texture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture8.png; sourceTree = "<group>"; };
+		A71883DC170582D000B2C13A /* texture9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture9.png; sourceTree = "<group>"; };
+		A71883DE17058D2200B2C13A /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
+		A71883E017058E6F00B2C13A /* texture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture2.png; sourceTree = "<group>"; };
+		A71883E217058FC300B2C13A /* texture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture3.png; sourceTree = "<group>"; };
+		A72AA4C416D9053700A35FB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A73DE5E217227782009F27A8 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		A73DE5E317227782009F27A8 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		A756B09016FDBA7E00580823 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		A756B09116FDBA7E00580823 /* Particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Particle.m; sourceTree = "<group>"; };
+		A76300FE17051B7B00692665 /* particleDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleDefault.png; sourceTree = "<group>"; };
+		A76C293B16D299D1004435ED /* DispelMagicCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DispelMagicCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76C293F16D299D1004435ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A76C294116D299D1004435ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A76C294316D299D1004435ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A76C294516D299D1004435ED /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A76C294716D299D1004435ED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A76C294B16D299D1004435ED /* DispelMagicCube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DispelMagicCube-Info.plist"; sourceTree = "<group>"; };
+		A76C294D16D299D1004435ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76C294F16D299D1004435ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A76C295116D299D1004435ED /* DispelMagicCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DispelMagicCube-Prefix.pch"; sourceTree = "<group>"; };
+		A76C295216D299D1004435ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A76C295316D299D1004435ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A76C295916D299D1004435ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A76C295A16D299D1004435ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A76D68881705BCC000F38CFB /* TextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSprite.h; sourceTree = "<group>"; };
+		A76D68891705BCC000F38CFB /* TextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSprite.m; sourceTree = "<group>"; };
+		A7743ED91702FC960036FA2E /* particleFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleFire.png; sourceTree = "<group>"; };
+		A78D9F4E16F6F7B40047DA50 /* Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gesture.h; sourceTree = "<group>"; };
+		A78D9F4F16F6F7B40047DA50 /* Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
+		A7B5E27016F840FE000D30C4 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		A7B5E27116F840FE000D30C4 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		A7E4508416FDC5930051C9A3 /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystem.h; sourceTree = "<group>"; };
+		A7E4508516FDC5930051C9A3 /* ParticleSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleSystem.m; sourceTree = "<group>"; };
+		A7F907F3170458A600EE16FF /* ParticleStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleStar.h; sourceTree = "<group>"; };
+		A7F907F4170458A600EE16FF /* ParticleStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleStar.m; sourceTree = "<group>"; };
+		A7F907F917046F5000EE16FF /* particleStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleStar.png; sourceTree = "<group>"; };
+		A7F908081704805900EE16FF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		A7F9080A1704806100EE16FF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76C293816D299D1004435ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72AA4C516D9053700A35FB8 /* QuartzCore.framework in Frameworks */,
+				A76C294016D299D1004435ED /* UIKit.framework in Frameworks */,
+				A76C294216D299D1004435ED /* Foundation.framework in Frameworks */,
+				A76C294416D299D1004435ED /* CoreGraphics.framework in Frameworks */,
+				A76C294616D299D1004435ED /* GLKit.framework in Frameworks */,
+				A76C294816D299D1004435ED /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A75D6AD416EF06F8002A5445 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A70AF1961706F75700C1EB2E /* text.png */,
+				A7F9080A1704806100EE16FF /* Icon@2x.png */,
+				A7F908081704805900EE16FF /* Icon.png */,
+				A7743ED91702FC960036FA2E /* particleFire.png */,
+				A7F907F917046F5000EE16FF /* particleStar.png */,
+				A76300FE17051B7B00692665 /* particleDefault.png */,
+				A7092E9517018B4A00B4AC04 /* particleAtlas.png */,
+				A71883DE17058D2200B2C13A /* texture1.png */,
+				A71883E017058E6F00B2C13A /* texture2.png */,
+				A71883E217058FC300B2C13A /* texture3.png */,
+				A71883D6170581A600B2C13A /* texture7.png */,
+				A71883DA1705829D00B2C13A /* texture8.png */,
+				A71883DC170582D000B2C13A /* texture9.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A76C293016D299D1004435ED = {
+			isa = PBXGroup;
+			children = (
+				A76C294916D299D1004435ED /* DispelMagicCube */,
+				A76C293E16D299D1004435ED /* Frameworks */,
+				A76C293C16D299D1004435ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76C293C16D299D1004435ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76C293B16D299D1004435ED /* DispelMagicCube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76C293E16D299D1004435ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72AA4C416D9053700A35FB8 /* QuartzCore.framework */,
+				A76C293F16D299D1004435ED /* UIKit.framework */,
+				A76C294116D299D1004435ED /* Foundation.framework */,
+				A76C294316D299D1004435ED /* CoreGraphics.framework */,
+				A76C294516D299D1004435ED /* GLKit.framework */,
+				A76C294716D299D1004435ED /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A76C294916D299D1004435ED /* DispelMagicCube */ = {
+			isa = PBXGroup;
+			children = (
+				A75D6AD416EF06F8002A5445 /* Resource */,
+				A76C294A16D299D1004435ED /* Supporting Files */,
+				A7F9080C1704810A00EE16FF /* ParticleEmitter */,
+				A76C295216D299D1004435ED /* AppDelegate.h */,
+				A76C295316D299D1004435ED /* AppDelegate.m */,
+				A76C295916D299D1004435ED /* ViewController.h */,
+				A76C295A16D299D1004435ED /* ViewController.m */,
+				A78D9F4E16F6F7B40047DA50 /* Gesture.h */,
+				A78D9F4F16F6F7B40047DA50 /* Gesture.m */,
+				A7B5E27016F840FE000D30C4 /* Animation.h */,
+				A7B5E27116F840FE000D30C4 /* Animation.m */,
+				A73DE5E217227782009F27A8 /* Cube.h */,
+				A73DE5E317227782009F27A8 /* Cube.m */,
+				A71883BA1705738300B2C13A /* GameLogic.h */,
+				A71883BB1705738300B2C13A /* GameLogic.m */,
+				A76D68881705BCC000F38CFB /* TextSprite.h */,
+				A76D68891705BCC000F38CFB /* TextSprite.m */,
+			);
+			path = DispelMagicCube;
+			sourceTree = "<group>";
+		};
+		A76C294A16D299D1004435ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76C294B16D299D1004435ED /* DispelMagicCube-Info.plist */,
+				A76C294C16D299D1004435ED /* InfoPlist.strings */,
+				A76C294F16D299D1004435ED /* main.m */,
+				A76C295116D299D1004435ED /* DispelMagicCube-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F9080C1704810A00EE16FF /* ParticleEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				A756B09016FDBA7E00580823 /* Particle.h */,
+				A756B09116FDBA7E00580823 /* Particle.m */,
+				A7E4508416FDC5930051C9A3 /* ParticleSystem.h */,
+				A7E4508516FDC5930051C9A3 /* ParticleSystem.m */,
+				A709A544170450EF00AC9FCA /* ParticleFire.h */,
+				A709A545170450EF00AC9FCA /* ParticleFire.m */,
+				A7F907F3170458A600EE16FF /* ParticleStar.h */,
+				A7F907F4170458A600EE16FF /* ParticleStar.m */,
+			);
+			name = ParticleEmitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76C293A16D299D1004435ED /* DispelMagicCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76C296116D299D1004435ED /* Build configuration list for PBXNativeTarget "DispelMagicCube" */;
+			buildPhases = (
+				A76C293716D299D1004435ED /* Sources */,
+				A76C293816D299D1004435ED /* Frameworks */,
+				A76C293916D299D1004435ED /* Resources */,
+				A76C296C16D29B3D004435ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DispelMagicCube;
+			productName = DispelMagicCube;
+			productReference = A76C293B16D299D1004435ED /* DispelMagicCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76C293216D299D1004435ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A76C293516D299D1004435ED /* Build configuration list for PBXProject "DispelMagicCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A76C293016D299D1004435ED;
+			productRefGroup = A76C293C16D299D1004435ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76C293A16D299D1004435ED /* DispelMagicCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76C293916D299D1004435ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76C294E16D299D1004435ED /* InfoPlist.strings in Resources */,
+				A7092E9617018B4A00B4AC04 /* particleAtlas.png in Resources */,
+				A7743EDA1702FC960036FA2E /* particleFire.png in Resources */,
+				A7F907FA17046F5000EE16FF /* particleStar.png in Resources */,
+				A7F908091704805900EE16FF /* Icon.png in Resources */,
+				A7F9080B1704806100EE16FF /* Icon@2x.png in Resources */,
+				A76300FF17051B7B00692665 /* particleDefault.png in Resources */,
+				A71883D7170581A600B2C13A /* texture7.png in Resources */,
+				A71883DB1705829D00B2C13A /* texture8.png in Resources */,
+				A71883DD170582D000B2C13A /* texture9.png in Resources */,
+				A71883DF17058D2300B2C13A /* texture1.png in Resources */,
+				A71883E117058E6F00B2C13A /* texture2.png in Resources */,
+				A71883E317058FC300B2C13A /* texture3.png in Resources */,
+				A70AF1971706F75700C1EB2E /* text.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A76C296C16D29B3D004435ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76C293716D299D1004435ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76C295016D299D1004435ED /* main.m in Sources */,
+				A76C295416D299D1004435ED /* AppDelegate.m in Sources */,
+				A76C295B16D299D1004435ED /* ViewController.m in Sources */,
+				A78D9F5016F6F7B40047DA50 /* Gesture.m in Sources */,
+				A7B5E27216F840FE000D30C4 /* Animation.m in Sources */,
+				A756B09216FDBA7E00580823 /* Particle.m in Sources */,
+				A7E4508616FDC5930051C9A3 /* ParticleSystem.m in Sources */,
+				A709A546170450EF00AC9FCA /* ParticleFire.m in Sources */,
+				A7F907F5170458A600EE16FF /* ParticleStar.m in Sources */,
+				A71883BC1705738300B2C13A /* GameLogic.m in Sources */,
+				A76D688A1705BCC000F38CFB /* TextSprite.m in Sources */,
+				A73DE5E417227782009F27A8 /* Cube.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A76C294C16D299D1004435ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76C294D16D299D1004435ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76C295F16D299D1004435ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A76C296016D299D1004435ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76C296216D299D1004435ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DispelMagicCube/DispelMagicCube-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "DispelMagicCube/DispelMagicCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A76C296316D299D1004435ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DispelMagicCube/DispelMagicCube-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "DispelMagicCube/DispelMagicCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76C293516D299D1004435ED /* Build configuration list for PBXProject "DispelMagicCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76C295F16D299D1004435ED /* Debug */,
+				A76C296016D299D1004435ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76C296116D299D1004435ED /* Build configuration list for PBXNativeTarget "DispelMagicCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76C296216D299D1004435ED /* Debug */,
+				A76C296316D299D1004435ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76C293216D299D1004435ED /* Project object */;
+}
